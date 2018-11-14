@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
@@ -21,15 +22,20 @@
         </div>
 
         <div class="choices">
-            <div class="choice">
+            <div class="choice" id="r">
                 <img src="images/rock.png" alt="">
             </div>
-            <div class="choice">
+            <div class="choice" id="p">
                 <img src="images/paper.png" alt="">
             </div>
-            <div class="choice">
+            <div class="choice" id="s">
                 <img src="images/scissors.png" alt="">
             </div>
         </div>
+
+        <div>
+            <p id="action-message">Make your move</p>
+        </div>
+        <script src="app.js"></script>
     </body>
 </html>
