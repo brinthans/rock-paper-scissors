@@ -80,7 +80,6 @@ header > h1 {
 
 .choice > img:hover {
     cursor: pointer;
-    border:4px solid #24272E;
 }
 
 #action-message {
@@ -88,4 +87,19 @@ header > h1 {
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+.green-glow > img {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow > img {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow > img {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
 }
